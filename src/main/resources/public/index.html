@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Login</title>
+		<style>
+			table, tr, th {border: 0.5px solid black; border-collapse:collapse}
+			</style>
+			<script>
+				function function() {
+					alert('aaa');
+				}	
+				</script>
+	</head>
+	<body>
+		<form action="/logged">
+			<p> Username <br><input type="text" name="username"/> </p>
+			<p> Password <br><input type="text" name="password"/> </p>
+			<input type="submit" value="Login"/>
+			
+		</form>
+		<br>
+			
+		<table>
+			<tr>
+				<th> Username </th>
+				<th> Password </th>
+			</tr>
+			<tr>
+				<th> sergio </th>
+				<th> 123456 </th>
+			</tr>
+		</table><br><br><br><br>
+						<h2> I wonder what's your name </h2>
+			<form action="/greeting">
+				<input type="text" name="name" placeholder="What's your name?"/>
+				<input type="submit"/>
+				</form>
+	</body>
+</html>
